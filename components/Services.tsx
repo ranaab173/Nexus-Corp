@@ -1,8 +1,8 @@
 
 import React from 'react';
-import ConsultingIcon from './icons/ConsultingIcon';
-import StrategyIcon from './icons/StrategyIcon';
-import InnovationIcon from './icons/InnovationIcon';
+import ConsultingIcon from './icons/ConsultingIcon.tsx';
+import StrategyIcon from './icons/StrategyIcon.tsx';
+import InnovationIcon from './icons/InnovationIcon.tsx';
 
 interface ServiceCardProps {
   icon: React.ReactNode;

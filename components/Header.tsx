@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ImageAssets } from './ImageAssets';
+import { ImageAssets } from './ImageAssets.tsx';
 
 const Header: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);

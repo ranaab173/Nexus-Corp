@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { ImageAssets } from './ImageAssets';
-import ArrowRightIcon from './icons/ArrowRightIcon';
+import { ImageAssets } from './ImageAssets.tsx';
+import ArrowRightIcon from './icons/ArrowRightIcon.tsx';
 
 interface CaseStudy {
   image: string;

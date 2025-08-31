@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Globe from './Globe';
-import ArrowRightIcon from './icons/ArrowRightIcon';
+import Globe from './Globe.tsx';
+import ArrowRightIcon from './icons/ArrowRightIcon.tsx';
 
 const Hero: React.FC = () => {
   return (

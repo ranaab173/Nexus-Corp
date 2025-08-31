@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ImageAssets } from './ImageAssets';
+import { ImageAssets } from './ImageAssets.tsx';
 
 const About: React.FC = () => {
   return (

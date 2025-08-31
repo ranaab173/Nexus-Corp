@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ImageAssets } from './ImageAssets';
+import { ImageAssets } from './ImageAssets.tsx';
 
 const SocialIcon: React.FC<{ href: string, children: React.ReactNode }> = ({ href, children }) => (
   <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110">
