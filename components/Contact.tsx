@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const Contact: React.FC = () => {
@@ -73,7 +72,7 @@ const Contact: React.FC = () => {
                   />
                 </div>
                 <button type="submit" className="w-full px-6 py-3 text-sm font-bold text-black bg-cyan-400 hover:bg-cyan-300 transition-colors duration-300 flex items-center justify-center">
-                  <span className="text-xl mr-2">></span> SUBMIT_QUERY
+                  <span className="text-xl mr-2">{'>'}</span> SUBMIT_QUERY
                 </button>
               </form>
               {status && (
